@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling==1.32.0"]
+requires = ["hatchling==1.32.4"]
 build-backend = "hatchling.build"
 
 [project]
@@ -66,7 +66,7 @@ dev = [
 
 [dependency-groups]
 action-build = [
-  "hatchling==1.32.0",
+  "hatchling==1.32.4",
 ]
 
 [project.scripts]
